@@ -1,0 +1,93 @@
+/* Your card CSS file */
+
+.card-category{
+  background-size: cover;
+  background-position: center;
+  color:  white;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  margin: 25px auto;
+  overflow: hidden;
+}
+
+.card-category h2 {
+  margin-top: 0px;
+}
+
+.card-category p {
+  margin-bottom: 0px;
+}
+.card-product img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-text {
+  flex-grow: 1;
+  padding: 0px 20px;
+
+}
+
+
+.card-product h2 {
+  margin-top: 0px;
+}
+
+.card-product  p {
+  margin-bottom: 0px;
+}
+
+
+.card-trip h2 {
+  margin: 0px;
+}
+
+.card-trip p {
+  margin: 0px;
+}
+
+.card-trip {
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card-trip img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  position: relative;
+}
+
+.bottom-info img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}

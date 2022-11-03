@@ -1,0 +1,14 @@
+.btn-white {
+  background-color: transparent;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 10px 25px;
+  }
+
+  .btn-white:hover {
+  border: transparent;
+  transition: border 3s ease;
+  }
